@@ -54,3 +54,15 @@ Copy my project, then run:
     "refresh_token": "string"
 }
 ```
+
+## Warning Message
+
+Если IP-address в базе данных и IP-address пользователя не совпадают, отправляется предупредительное письмо на почту пользователя(в этом случае это моковая почта, но сам механизм отправки полностью функционален)
+
+```
+  handler/mail.go
+  func SendEmail(email string, subject string, HTMLbody string) error {}
+```
+
+## .env
+P.S. Все права у sensitive information в .env уже отозваны
