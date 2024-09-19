@@ -1,4 +1,18 @@
 
+# Test task BackDev
+
+Тестовое задание на позицию Junior Backend Developer
+
+
+## How to run
+
+Copy my project, then run:
+
+```bash
+  docker-compose up --build
+```
+
+
 ## API
 
 #### Register User
